@@ -12,6 +12,13 @@ Kahn's algorithm is the executable definition: a vertex with indegree zero has n
 
 **Complexity:** O(V+E) with a plain queue; the deterministic pool adds a small insertion cost.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
